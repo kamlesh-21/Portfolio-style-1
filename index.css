@@ -8,7 +8,7 @@ body{
     margin: 0px auto;   
 }
 
-/* Typegrphy */
+/* Typ0grphy */
 h1, h2 {
     font-weight: 300;
 }
@@ -16,6 +16,7 @@ h1, h2 {
 .bold-text{
     display: block;
     font-weight: 900;
+    color: #99d930;
 }
 
 h1 .bold-text {
@@ -28,18 +29,32 @@ h2 .bold-text {
 
 h1 {
     font-size: 60px;
+    margin-top: 0px;
 }
 
 h2 {
     font-size: 42px;
+    margin-top: 0px;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 20px 0;
+
 }
 
 h3 {
     font-size: 36px;
+    margin-bottom: 0;
 }
 
 small {
     font-size: 16px;
+    margin-top: 5px;
+}
+
+/* styling */
+img {
+    border-radius: 360vh;
+    border: 10px solid #99d930;
 }
 
 a{
@@ -65,4 +80,30 @@ header {
 
 .section-three {
     background-color: #eaf9ff;
+}
+
+.inverse {
+    background-color: #252525;
+    color: #fff;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #99D930;
+    color: #252525;
+
+}
+.btn:hover,.btn:focus{
+    background-color: #252525;
+    color: #fff;
+
+}
+
+.section-three .btn:hover,
+.section-three .btn:focus{
+    background-color: #fff;
+    color: #252525;
+
 }
